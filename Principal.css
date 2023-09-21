@@ -1,0 +1,16 @@
+﻿
+.modalPopup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    z-index: 1000;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+.campo-invalido {
+    border-color: red; 
+    background-color: #ffe6e6; 
+}
