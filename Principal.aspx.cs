@@ -105,7 +105,7 @@ namespace CRUD
 
                 using (var dbContext = new MyDbContext())
                 {
-                    todosLosEmpleados = dbContext.Empleados.Where(p => p.Nombre == Nombre).ToList();
+                    todosLosEmpleados = dbContext.Empleados.Where(p => p.Nombre.Contains(Nombre)).ToList();
                 }
 
                 if (todosLosEmpleados.Count == 0)
